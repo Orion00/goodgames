@@ -173,7 +173,7 @@ games
 # games.sort_values(by="rank")
 
 # %%
-games.to_csv("init_data.csv",index=False)
+games.to_csv("data/init_data.csv",index=False)
 
 # %%
 driver.quit()

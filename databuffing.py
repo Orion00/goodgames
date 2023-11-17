@@ -13,15 +13,17 @@ import requests
 import urllib.parse
 import time
 # %%
-games = pd.read_csv("init_data.csv")
+games = pd.read_csv("data/init_data.csv")
 #games = games[295:301]
 
+### Add game_ids
 # %%
 a_url = "https://boardgamegeek.com/xmlapi/"
 
 def checkIf(obj,data_type):
     return type(obj) == data_type
 
+# %%
 
 game_id = []
 for index,row in games.iterrows():
@@ -74,10 +76,6 @@ for index,row in games.iterrows():
         game_returned = bgg_dict['boardgames']['boardgame']
         if (checkIf(game_returned['name'],dict)):
             if (game_returned['name']['#text'] == game_name):
-                # if (len(game_returned['yearpublished']) == 0):
-                
-                # if ((game_returned['yearpublished'] == game_year)):
-                #print("Success",game_name)
                 this_id = game_returned['@objectid']
         elif checkIf(game_returned['name'],str):
             if (game_returned['name'] == game_name):
@@ -91,24 +89,26 @@ for index,row in games.iterrows():
 games['game_id'] = game_id
 games
 # %%
-games.to_csv("partial_data.csv",index=False)
+games.to_csv("data/partial_data.csv",index=False)
 
 ### Mechanics
 # %%
-games = pd.read_csv("partial_data.csv")
-gam = games.copy(deep=True)
-gam = gam[gam['game_id'].notnull()]
-gam = gam[0:25]
-gam
+games = pd.read_csv("data/partial_data.csv")
+games = games[games['game_id'].notnull()]
+#gam = gam[0:25]
 # %%
-game_id = [str(int(i)) for i in gam['game_id']]
-game_id
+game_id = [str(int(i)) for i in games['game_id']]
 
 # %%
 a_url = "https://boardgamegeek.com/xmlapi/boardgame/"
 batch_size = 25
 num_batches = len(game_id) // batch_size + (1 if len(game_id) % batch_size > 0 else 0)
 
+
+min_players = []
+max_players = []
+playing_time = []
+mechanics = []
 
 for batch_num in range(num_batches):
     start_idx = batch_num * batch_size
@@ -118,33 +118,37 @@ for batch_num in range(num_batches):
     id_string = ",".join(current_batch)
 
     print("Batch",batch_num)
-    if(batch_num > 1):
-        print(id_string)
+    # if(batch_num > 8):
+    #     print(id_string)
     full_url = a_url + id_string
     r = requests.get(full_url)
     bgg_dict = xmltodict.parse(r.content)
-
-    min_players = []
-    max_players = []
-    playing_time = []
-    mechanics = []
 
     for game in bgg_dict['boardgames']['boardgame']:
         min_players.append(game['minplayers'])
         max_players.append(game['maxplayers'])
         playing_time.append(game['playingtime'])
-        mechanics.append([m['#text'] for m in game['boardgamemechanic']])
+        if 'boardgamemechanic' not in game:
+            print("No mechanics")
+            mechanics.append([])
+        else:
+            if checkIf(game['boardgamemechanic'],list):
+                mechanics.append([m['#text'] for m in game['boardgamemechanic']])
+            else:
+                mechanics.append(game['boardgamemechanic']['#text'])
     time.sleep(5)
     
 
 
-gam['min_players'] = min_players
-gam['max_players'] = max_players
-gam['playing_time_min'] = playing_time
-gam['mechanics'] = mechanics
+games['min_players'] = min_players
+games['max_players'] = max_players
+games['playing_time_min'] = playing_time
+games['mechanics'] = mechanics
 # %%
-mechanics_encoded = pd.get_dummies(gam['mechanics'].apply(pd.Series).stack()).sum(level=0)
-gam = pd.concat([gam, mechanics_encoded], axis=1)
-gam
+mechanics_encoded = pd.get_dummies(games['mechanics'].apply(pd.Series).stack()).sum(level=0)
+games = pd.concat([games, mechanics_encoded], axis=1)
+games
 # %%
-gam.to_csv("full_data.csv",index=False)
+games.to_csv("data/full_data.csv",index=False)
+
+# %%
