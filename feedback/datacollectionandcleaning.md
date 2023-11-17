@@ -1,7 +1,7 @@
-Concerns with games that have 4 digits (nan), Go (negative numbers),
+# Revising Post
 
-: and - in the name
+## Initial Post
+The initial post is written [here](https://github.com/Orion00/tinyproject/blob/main/_posts/2022-11-17-good-games-part-1.md) with commit 9952157733a72fec6377ec08d31e1a6812109bc3.
 
-read_table vs Selenium
+## Revised Post
 
-Checking returned objects are legal

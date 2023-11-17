@@ -5,6 +5,14 @@
 # Documentation is found at https://boardgamegeek.com/wiki/page/BGG_XML_API&redirectedfrom=XML_API#
 # and https://api.geekdo.com/xmlapi2
 # Terms of Use are here https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
+
+### Delays
+# Request is done for each row in the dataset, so 500 calls total
+DELAY_FOR_IDS = 1
+
+# Requests are done in batches of 25. 500 / 25 = 20, so 20 calls total
+DELAY_FOR_MECHANICS = 5
+
 # %%
 import pandas as pd
 import numpy as np
@@ -14,7 +22,6 @@ import urllib.parse
 import time
 # %%
 games = pd.read_csv("data/init_data.csv")
-#games = games[295:301]
 
 ### Add game_ids
 # %%
@@ -22,8 +29,6 @@ a_url = "https://boardgamegeek.com/xmlapi/"
 
 def checkIf(obj,data_type):
     return type(obj) == data_type
-
-# %%
 
 game_id = []
 for index,row in games.iterrows():
@@ -34,7 +39,6 @@ for index,row in games.iterrows():
     # Check for hyphen instead of hyphen minus character
     if "–" in game_name:
         new_game_name = game_name.replace(" – ", " ")
-        #params['exact'] = 0
         new_game_name = urllib.parse.quote(new_game_name, safe='')
         params = {}
         base_url = "https://boardgamegeek.com/xmlapi/search?search="+new_game_name
@@ -84,18 +88,18 @@ for index,row in games.iterrows():
             print("Something is very wrong")
             print()
     game_id.append(this_id)
-    time.sleep(1)
+    time.sleep(DELAY_FOR_IDS)
 
 games['game_id'] = game_id
 games
 # %%
 games.to_csv("data/partial_data.csv",index=False)
 
-### Mechanics
+### Add Mechanics
 # %%
 games = pd.read_csv("data/partial_data.csv")
 games = games[games['game_id'].notnull()]
-#gam = gam[0:25]
+games
 # %%
 game_id = [str(int(i)) for i in games['game_id']]
 
@@ -103,7 +107,6 @@ game_id = [str(int(i)) for i in games['game_id']]
 a_url = "https://boardgamegeek.com/xmlapi/boardgame/"
 batch_size = 25
 num_batches = len(game_id) // batch_size + (1 if len(game_id) % batch_size > 0 else 0)
-
 
 min_players = []
 max_players = []
@@ -117,9 +120,6 @@ for batch_num in range(num_batches):
 
     id_string = ",".join(current_batch)
 
-    print("Batch",batch_num)
-    # if(batch_num > 8):
-    #     print(id_string)
     full_url = a_url + id_string
     r = requests.get(full_url)
     bgg_dict = xmltodict.parse(r.content)
@@ -136,7 +136,7 @@ for batch_num in range(num_batches):
                 mechanics.append([m['#text'] for m in game['boardgamemechanic']])
             else:
                 mechanics.append(game['boardgamemechanic']['#text'])
-    time.sleep(5)
+    time.sleep(DELAY_FOR_MECHANICS)
     
 
 
@@ -150,5 +150,3 @@ games = pd.concat([games, mechanics_encoded], axis=1)
 games
 # %%
 games.to_csv("data/full_data.csv",index=False)
-
-# %%
