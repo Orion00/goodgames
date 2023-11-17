@@ -103,7 +103,7 @@ for page in range(1,6):
     temp_games['avg_rating'] = temp_games['avg_rating'].astype(float)
     temp_games['list_price'] = temp_games['list_price'].astype(float)
 
-    temp_games['Shop'] = list_price
+    #temp_games['Shop'] = list_price
     temp_games['amazon_price'] = amazon_price
     temp_games['year'] = year
 
@@ -138,3 +138,5 @@ games.to_csv("init_data.csv",index=False)
 # %%
 driver.quit()
 
+
+# %%
