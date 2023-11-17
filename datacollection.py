@@ -133,78 +133,8 @@ games
 # games.sort_values(by="rank")
 
 # %%
-games.to_csv("init_dat.csv",index=False)
+games.to_csv("init_data.csv",index=False)
 
 # %%
 driver.quit()
 
-### Beefing up Data (Gathering data about each game)
-# Uses scraping and API from boardgamegeek.com.
-# Documentation is found at https://boardgamegeek.com/wiki/page/BGG_XML_API&redirectedfrom=XML_API#
-# and https://api.geekdo.com/xmlapi2
-# Terms of Use are here https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
-# %%
-from xml.etree import ElementTree
-import xmltodict
-import requests
-from urllib.parse import quote
-import time
-# %%
-game = pd.read_csv("init_data.csv")
-#games = games[23:30]
-game
-print(games)
-print(game)
-# %%
-a_url = "https://boardgamegeek.com/xmlapi/"
-# game_name = "Brass: Birmingham".replace(" ","+")
-def checkIf(obj,data_type):
-    return type(obj) == data_type
-
-
-game_id = []
-for index,row in games.iterrows():
-    a_url = "https://boardgamegeek.com/xmlapi/"
-    #print("testing",quote(row['title']),str(row['year']))
-    game_name = str(row['title'])
-    game_year = str(row['year'])
-    endpoint = "search?search="+quote(game_name)
-    a_url += endpoint
-    r = requests.get(a_url)
-    bgg_dict = xmltodict.parse(r.content)
-    #print(bgg_dict)
-    #time.sleep(1)
-    this_id = ""
-    if (checkIf(bgg_dict['boardgames']['boardgame'],list)):
-        for game_returned in bgg_dict['boardgames']['boardgame']:
-            print(game_returned)
-            # print(game_returned['name']['#text'])
-            if (checkIf(game_returned['name'],dict)):
-                if (game_returned['name']['#text'] == game_name):
-                    # if (len(game_returned['yearpublished']) == 0):
-                    
-                    # if ((game_returned['yearpublished'] == game_year)):
-                    #print("Success",game_name)
-                    this_id = game_returned['@objectid']
-                    break
-            elif checkIf(game_returned['name'],str):
-                if (game_returned['name'] == game_name):
-                    this_id = game_returned['@objectid']
-                    break
-            else:
-                print("Something is very wrong")
-                print()
-                    
-    else:
-        print("Not a list")
-    game_id.append(this_id)
-
-games['game_id'] = game_id
-
-
-# %%
-# Data Cleaning
-bgg_dict['boardgames']['boardgame'][0]
-game_id
-# %%
-games
