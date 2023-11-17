@@ -1,0 +1,501 @@
+rank,title,BGG_rating,avg_rating,list_price,amazon_price,year,game_id
+1,Brass: Birmingham,8.422,8.61,,79.95,2018,224517
+2,Pandemic Legacy: Season 1,8.387,8.53,,70.0,2015,161936
+3,Gloomhaven,8.375,8.61,,248.99,2017,174430
+4,Ark Nova,8.319,8.53,74.95,58.99,2021,342942
+5,Twilight Imperium: Fourth Edition,8.241,8.61,131.99,116.16,2017,233078
+6,Terraforming Mars,8.223,8.37,79.99,62.85,2016,167791
+7,Dune: Imperium,8.205,8.42,54.75,51.43,2020,316554
+8,Gloomhaven: Jaws of the Lion,8.191,8.47,49.99,36.86,2020,291457
+9,War of the Ring: Second Edition,8.179,8.53,89.99,79.61,2011,115746
+10,Star Wars: Rebellion,8.17,8.42,,,2016,187645
+11,Spirit Island,8.15,8.35,89.99,72.1,2017,162886
+12,Gaia Project,8.131,8.4,99.95,83.99,2017,220308
+13,Twilight Struggle,8.077,8.25,64.99,54.64,2005,12333
+14,Through the Ages: A New Story of Civilization,8.075,8.3,,69.95,2015,182028
+15,Great Western Trail,8.051,8.22,,65.95,2016,193738
+16,The Castles of Burgundy,8.008,8.13,,49.99,2011,84876
+17,Scythe,8.007,8.16,79.99,67.33,2016,169786
+18,7 Wonders Duel,7.972,8.1,29.99,21.99,2015,173346
+19,Eclipse: Second Dawn for the Galaxy,7.969,8.48,,171.7,2020,246900
+20,Brass: Lancashire,7.964,8.19,,76.99,2007,28720
+21,Nemesis,7.959,8.28,,193.0,2018,167355
+22,Concordia,7.949,8.1,64.99,54.82,2013,124361
+23,A Feast for Odin,7.949,8.18,,99.99,2016,177736
+24,Clank! Legacy: Acquisitions Incorporated,7.947,8.56,109.99,89.99,2019,266507
+25,Wingspan,7.916,8.06,65.0,44.99,2019,266192
+26,Terra Mystica,7.912,8.08,79.99,59.97,2012,120677
+27,Arkham Horror: The Card Game,7.907,8.14,44.95,23.88,2016,205637
+28,Lost Ruins of Arnak,7.894,8.08,59.95,39.99,2020,312484
+29,Root,7.884,8.08,60.0,49.99,2018,237182
+30,Great Western Trail: Second Edition,7.88,8.38,55.99,50.0,2021,341169
+31,Orléans,7.876,8.06,59.95,54.28,2014,164928
+32,Everdell,7.859,8.04,,60.0,2018,199792
+33,Mage Knight Board Game,7.859,8.09,,77.99,2011,96848
+34,Viticulture Essential Edition,7.851,8.0,,48.63,2015,183394
+35,Barrage,7.849,8.18,,,2019,251247
+36,The Crew: Mission Deep Sea,7.846,8.2,,14.99,2021,324856
+37,Too Many Bones,7.835,8.35,,,2017,192135
+38,Food Chain Magnate,7.815,8.08,139.99,104.0,2015,175914
+39,Pax Pamir: Second Edition,7.801,8.23,89.45,75.95,2019,256960
+40,Marvel Champions: The Card Game,7.798,8.13,55.99,41.99,2019,285774
+41,Underwater Cities,7.791,8.07,74.95,60.12,2018,247763
+42,Puerto Rico,7.788,7.93,,124.94,2002,3076
+43,Caverna: The Cave Farmers,7.775,7.96,,67.6,2013,102794
+44,Blood Rage,7.768,7.94,,89.99,2015,170216
+45,Cascadia,7.765,7.97,39.99,31.95,2021,295947
+46,Frosthaven,7.761,8.86,250.0,214.95,2022,295770
+47,Anachrony,7.761,8.08,,,2017,185343
+48,On Mars,7.76,8.21,124.99,112.49,2020,184267
+49,Agricola,7.76,7.88,,62.65,2007,31260
+50,Crokinole,7.747,8.02,,170.0,1876,521
+51,Pandemic Legacy: Season 0,7.738,8.42,79.99,69.9,2020,314040
+52,Sleeping Gods,7.738,8.27,99.99,94.28,2021,255984
+53,Kanban EV,7.735,8.44,,124.99,2020,284378
+54,Pandemic Legacy: Season 2,7.735,8.04,79.99,53.99,2017,221107
+55,Heat: Pedal to the Metal,7.727,8.11,74.99,66.99,2022,366013
+56,Mansions of Madness: Second Edition,7.725,7.96,109.99,89.99,2016,205059
+57,Maracaibo,7.723,8.05,74.95,64.26,2019,276025
+58,Lisboa,7.72,8.2,,126.95,2017,161533
+59,Tzolk'in: The Mayan Calendar,7.712,7.87,,59.95,2012,126163
+60,Power Grid,7.709,7.82,44.95,39.75,2004,2651
+61,Clans of Caledonia,7.69,7.95,,,2017,216132
+62,The Quacks of Quedlinburg,7.69,7.83,49.99,39.99,2018,244521
+63,Le Havre,7.686,7.85,,,2008,35677
+64,Paladins of the West Kingdom,7.686,7.99,60.0,51.14,2019,266810
+65,The Crew: The Quest for Planet Nine,7.684,7.83,,14.99,2019,284083
+66,Star Wars: Imperial Assault,7.682,7.97,109.99,104.38,2014,164153
+67,The Gallerist,7.682,8.03,,128.0,2015,125153
+68,Mechs vs. Minions,7.672,7.98,,,2016,209010
+69,Grand Austria Hotel,7.671,7.93,,64.99,2015,182874
+70,Cthulhu: Death May Die,7.666,8.17,109.99,87.99,2019,253344
+71,Android: Netrunner,7.66,7.88,,199.95,2012,124742
+72,Kingdom Death: Monster,7.66,8.51,,849.0,2015,55690
+73,Azul,7.647,7.76,39.99,21.7,2017,230802
+74,Race for the Galaxy,7.634,7.75,,27.43,2007,28143
+75,Agricola (Revised Edition),7.633,7.96,,62.65,2016,200680
+76,Eclipse: New Dawn for the Galaxy,7.629,7.84,,,2011,72125
+77,Five Tribes,7.629,7.78,,,2014,157354
+78,Aeon's End,7.628,7.92,,52.94,2016,191189
+79,Clank!: A Deck-Building Adventure,7.626,7.79,65.0,49.99,2016,201808
+80,Obsession,7.617,8.15,,,2018,231733
+81,Fields of Arle,7.609,8.03,,,2014,159675
+82,Through the Ages: A Story of Civilization,7.608,7.85,,99.99,2006,25613
+83,Teotihuacan: City of Gods,7.607,7.87,,49.95,2018,229853
+84,Beyond the Sun,7.603,7.95,,63.99,2020,317985
+85,Lords of Waterdeep,7.596,7.73,49.99,30.99,2012,110327
+86,The Voyages of Marco Polo,7.59,7.79,,,2015,171623
+87,Dominant Species,7.589,7.82,73.23,69.5,2010,62219
+88,Robinson Crusoe: Adventures on the Cursed Island,7.587,7.76,,51.5,2012,121921
+89,7 Wonders,7.584,7.69,59.99,40.0,2010,68448
+90,The Search for Planet X,7.566,7.99,44.99,40.12,2020,279537
+91,Tainted Grail: The Fall of Avalon,7.562,8.12,133.27,123.94,2019,264220
+92,El Grande,7.554,7.73,,,1995,93
+93,Architects of the West Kingdom,7.55,7.75,,50.15,2018,236457
+94,The 7th Continent,7.547,7.85,,,2017,180263
+95,Battlestar Galactica: The Board Game,7.544,7.73,,,2008,37111
+96,Inis,7.536,7.83,,72.79,2016,155821
+97,Keyflower,7.535,7.73,,103.12,2012,122515
+98,Decrypto,7.535,7.77,27.99,24.99,2018,225694
+99,Raiders of the North Sea,7.53,7.75,60.0,47.94,2015,170042
+100,Caylus,7.529,7.72,,124.99,2005,18602
+101,Trickerion: Legends of Illusion,7.528,7.97,70.0,62.56,2015,163068
+102,Dominion: Intrigue,7.524,7.69,39.95,28.99,2009,40834
+103,Mombasa,7.523,7.85,,,2015,172386
+104,Tigris & Euphrates,7.523,7.7,,,1997,42
+105,Lorenzo il Magnifico,7.521,7.85,59.99,49.95,2016,203993
+106,Troyes,7.52,7.72,,49.99,2010,73439
+107,Eldritch Horror,7.519,7.76,55.99,50.39,2013,146021
+108,The Lord of the Rings: Journeys in Middle-Earth,7.514,7.93,109.99,99.0,2019,269385
+109,Twilight Imperium: Third Edition,7.507,7.8,,178.95,2005,12493
+110,Concordia Venus,7.506,8.29,79.95,61.42,2018,256916
+111,Russian Railroads,7.499,7.74,,229.99,2013,144733
+112,Patchwork,7.497,7.6,,27.99,2014,163412
+113,Trajan,7.492,7.75,,,2011,102680
+114,Carnegie,7.488,8.04,,60.95,2022,310873
+115,Rising Sun,7.486,7.78,,99.99,2018,205896
+116,Aeon's End: War Eternal,7.483,8.29,,38.62,2017,218417
+117,Dominion,7.482,7.6,49.99,38.07,2008,36218
+118,Vinhos: Deluxe Edition,7.471,8.11,,98.99,2016,175640
+119,Dwellings of Eldervale,7.471,8.2,,,2020,271055
+120,Age of Steam,7.47,7.84,,,2002,4098
+121,The Isle of Cats,7.468,7.73,50.0,34.99,2019,281259
+122,Clank! In! Space!: A Deck-Building Adventure,7.468,7.8,65.0,55.78,2017,233371
+123,The Quest for El Dorado,7.465,7.67,,39.99,2017,217372
+124,Pandemic: Iberia,7.464,7.89,,44.75,2016,198928
+125,Hansa Teutonica,7.464,7.73,,49.99,2009,43015
+126,Codenames,7.459,7.55,24.99,12.39,2015,178900
+127,Yokohama,7.458,7.82,,,2016,196340
+128,Forbidden Stars,7.458,7.98,,,2015,175155
+129,Champions of Midgard,7.456,7.73,59.99,54.99,2015,172287
+130,Roll for the Galaxy,7.45,7.6,59.99,51.07,2014,132531
+131,PARKS,7.449,7.68,,49.99,2019,266524
+132,Cartographers,7.444,7.63,24.95,18.74,2019,263918
+133,Oathsworn: Into the Deepwood,7.442,9.09,,649.99,2022,251661
+134,Pandemic,7.439,7.54,39.99,29.99,2008,30549
+135,Res Arcana,7.434,7.67,39.99,31.98,2019,262712
+136,Targi,7.429,7.62,,19.95,2012,118048
+137,Watergate,7.425,7.79,34.95,28.99,2019,274364
+138,Alchemists,7.424,7.65,,59.95,2014,161970
+139,Rajas of the Ganges,7.423,7.73,,45.45,2017,220877
+140,Just One,7.422,7.6,24.99,16.61,2018,254640
+141,Star Realms,7.421,7.56,,14.99,2014,147020
+142,Sherlock Holmes Consulting Detective: The Thames Murders & Other Cases,7.421,7.65,,57.99,1982,2511
+143,Kemet,7.421,7.66,,,2012,127023
+144,It's a Wonderful World,7.42,7.7,49.99,44.77,2019,271324
+145,Praga Caput Regni,7.419,7.94,74.95,54.23,2020,308765
+146,Endeavor: Age of Sail,7.418,7.9,,127.93,2018,233398
+147,Ra,7.415,7.58,,49.99,1999,12
+148,SCOUT,7.415,7.8,,23.0,2019,291453
+149,Hadrian's Wall,7.413,8.02,60.0,52.43,2021,304783
+150,Stone Age,7.41,7.53,54.99,49.95,2008,34635
+151,Legendary Encounters: An Alien Deck Building Game,7.409,7.76,,,2014,146652
+152,Ticket to Ride: Europe,7.408,7.53,49.99,34.5,2005,14996
+153,Terraforming Mars: Ares Expedition,7.403,7.7,49.99,33.94,2021,328871
+154,The Lord of the Rings: The Card Game,7.401,7.66,58.96,39.49,2011,77423
+155,Marco Polo II: In the Service of the Khan,7.4,7.98,,,2019,283948
+156,Star Wars: X-Wing Miniatures Game,7.399,7.64,,49.95,2012,103885
+157,Magic: The Gathering,7.397,7.57,,76.99,1993,463
+158,Viscounts of the West Kingdom,7.396,7.87,,59.95,2020,296151
+159,Tyrants of the Underdark,7.394,7.91,50.0,37.5,2016,189932
+160,Istanbul,7.394,7.55,,77.0,2014,148949
+161,Glen More II: Chronicles,7.393,7.92,,84.99,2019,265188
+162,Undaunted: Normandy,7.391,7.81,,48.0,2019,268864
+163,Xia: Legends of a Drift System,7.39,7.87,,,2014,82222
+164,That's Pretty Clever!,7.39,7.58,24.99,20.99,2018,244522
+165,Welcome To...,7.39,7.55,,34.95,2018,233867
+166,War Chest,7.384,7.87,49.99,46.31,2018,249259
+167,Splendor Duel,7.376,7.98,,29.99,2022,364073
+168,Jaipur,7.376,7.49,24.99,19.99,2009,54043
+169,Chaos in the Old World,7.373,7.66,,,2009,43111
+170,Radlands,7.373,7.9,,49.99,2021,329082
+171,War of the Ring,7.37,7.77,89.99,79.69,2004,9609
+172,Dominion (Second Edition),7.365,7.85,49.99,38.07,2016,209418
+173,Descent: Journeys in the Dark (Second Edition),7.359,7.62,,199.95,2012,104162
+174,This War of Mine: The Board Game,7.358,7.78,,69.94,2017,188920
+175,Azul: Summer Pavilion,7.356,7.65,39.99,35.61,2019,287954
+176,Memoir '44,7.354,7.54,,,2004,10630
+177,Nemesis: Lockdown,7.353,8.38,190.0,148.17,2022,310100
+178,Unmatched: Cobble & Fog,7.353,8.01,,39.95,2020,294484
+179,Final Girl,7.351,8.36,,20.05,2021,277659
+180,Horrified,7.349,7.67,,39.99,2019,282524
+181,Cosmic Encounter,7.346,7.53,69.99,55.99,2008,39463
+182,Too Many Bones: Undertow,7.345,8.69,119.99,99.95,2018,235802
+183,Railways of the World,7.344,7.67,,149.99,2005,17133
+184,Wingspan Asia,7.341,8.36,,43.95,2022,366161
+185,Castles of Mad King Ludwig,7.34,7.52,,49.99,2014,155426
+186,The Resistance: Avalon,7.339,7.52,24.99,19.99,2012,128882
+187,Sagrada,7.338,7.48,,44.95,2017,199561
+188,Sekigahara: The Unification of Japan,7.337,8.0,,68.01,2011,25021
+189,Dune,7.333,7.96,,54.3,2019,283355
+190,The Red Cathedral,7.333,7.74,39.99,33.63,2020,227224
+191,Ora et Labora,7.332,7.69,,69.99,2011,70149
+192,A Game of Thrones: The Board Game (Second Edition),7.328,7.54,64.95,51.96,2011,103343
+193,Ticket to Ride: Nordic Countries,7.327,7.63,,94.99,2007,31627
+194,Revive,7.321,8.18,,,2022,332772
+195,Star Wars: Outer Rim,7.321,7.73,,60.99,2019,271896
+196,Dead of Winter: A Crossroads Game,7.32,7.48,59.95,37.99,2014,150376
+197,Commands & Colors: Ancients,7.319,7.77,64.99,55.39,2006,14105
+198,Suburbia,7.319,7.48,,69.95,2012,123260
+199,Captain Sonar,7.316,7.52,69.0,64.44,2016,171131
+200,Space Base,7.316,7.55,44.99,36.01,2018,242302
+201,Go,7.313,7.65,30.99,29.44,-2200,188
+202,Meadow,7.313,7.77,,43.99,2021,314491
+203,Village,7.313,7.5,,159.99,2011,104006
+204,Earth,7.31,7.75,49.99,39.8,2023,350184
+205,Paleo,7.307,7.72,,63.99,2020,300531
+206,Clank!: Catacombs,7.306,8.33,,54.95,2022,365717
+207,Welcome to the Moon,7.304,8.01,,45.95,2021,339789
+208,Splendor,7.302,7.42,44.99,22.61,2014,148228
+209,Tichu,7.3,7.58,,12.68,1991,215
+210,Modern Art,7.299,7.49,,,1992,118
+211,Star Realms: Colony Wars,7.298,7.81,,17.95,2015,182631
+212,Carcassonne,7.297,7.41,34.99,22.67,2000,822
+213,Coimbra,7.297,7.63,,47.37,2018,245638
+214,Near and Far,7.295,7.69,,59.6,2017,195421
+215,Planet Unknown,7.295,7.94,,129.99,2022,258779
+216,Combat Commander: Europe,7.295,7.95,,,2006,21050
+217,Dinosaur Island,7.295,7.59,59.95,49.99,2017,221194
+218,Ankh: Gods of Egypt,7.294,7.83,69.97,65.3,2021,285967
+219,Under Falling Skies,7.293,7.69,,28.75,2020,306735
+220,Nations,7.293,7.61,,115.99,2013,126042
+221,Calico,7.291,7.56,,,2020,283155
+222,Nidavellir,7.291,7.61,,39.99,2020,293014
+223,Paths of Glory,7.29,8.05,,54.99,1999,91
+224,Darwin's Journey,7.289,8.21,,,2023,322289
+225,Wonderland's War,7.286,8.14,,,2022,227935
+226,YINSH,7.284,7.71,39.95,36.7,2003,7854
+227,My City,7.283,7.68,34.95,32.99,2020,295486
+228,Ticket to Ride,7.28,7.4,54.99,43.97,2004,9209
+229,Cyclades,7.278,7.51,,68.99,2009,54998
+230,Hegemony: Lead Your Class to Victory,7.278,8.52,,324.99,2023,321608
+231,La Granja,7.272,7.61,,,2014,146886
+232,Codenames: Duet,7.272,7.45,,24.95,2017,224037
+233,Aeon's End: Legacy,7.271,8.07,,100.0,2019,241451
+234,Secret Hitler,7.268,7.51,,40.0,2016,188834
+235,The Taverns of Tiefenthal,7.262,7.58,,61.37,2019,269207
+236,Legendary: A Marvel Deck Building Game,7.262,7.54,,59.98,2012,129437
+237,Deception: Murder in Hong Kong,7.259,7.46,39.99,31.89,2014,156129
+238,Century: Golem Edition,7.259,7.61,,39.99,2017,232832
+239,Hanamikoji,7.259,7.5,,,2013,158600
+240,MicroMacro: Crime City,7.256,7.53,50.0,43.45,2020,318977
+241,Zombicide: Black Plague,7.256,7.62,109.99,87.99,2015,176189
+242,Roll Player,7.251,7.46,59.95,52.82,2016,169426
+243,The Princes of Florence,7.248,7.51,,65.0,2000,555
+244,Sushi Go Party!,7.247,7.4,22.0,19.98,2016,192291
+245,Kanban: Driver's Edition,7.247,7.79,,,2014,109276
+246,Flamme Rouge,7.246,7.5,,62.99,2016,199478
+247,Fantasy Realms,7.245,7.53,,25.95,2017,223040
+248,"Unmatched: Battle of Legends, Volume One",7.244,7.76,,,2019,274637
+249,Detective: A Modern Crime Board Game,7.239,7.68,50.0,27.43,2018,223321
+250,Goa: A New Expedition,7.239,7.56,,,2004,9216
+251,Santorini,7.238,7.38,,,2016,146645
+252,KLASK,7.238,7.63,,59.99,2014,165722
+253,Isle of Skye: From Chieftain to King,7.237,7.4,,44.99,2015,176494
+254,Chronicles of Crime,7.236,7.61,,41.95,2018,239188
+255,Glory to Rome,7.232,7.49,,,2005,19857
+256,Pulsar 2849,7.231,7.67,59.95,54.0,2017,228341
+257,1830: Railways & Robber Barons,7.231,7.87,,80.07,1986,421
+258,Hero Realms,7.23,7.53,,23.95,2016,198994
+259,Hallertau,7.23,7.92,,86.49,2020,300322
+260,Clash of Cultures: Monumental Edition,7.228,8.39,119.99,99.95,2021,299659
+261,Shogun,7.227,7.52,,,2006,20551
+262,Samurai,7.226,7.46,,,1998,3
+263,Camel Up (Second Edition),7.224,7.58,,,2018,260605
+264,Galaxy Trucker,7.223,7.35,,,2007,31481
+265,Vindication,7.22,7.8,,169.99,2018,224783
+266,1960: The Making of the President,7.22,7.62,,89.0,2007,27708
+267,Viticulture,7.219,7.51,,48.63,2013,128621
+268,Endless Winter: Paleoamericans,7.217,7.8,,369.99,2022,305096
+269,Steam,7.215,7.56,,29.99,2009,27833
+270,7 Wonders (Second Edition),7.215,7.87,59.99,40.0,2020,316377
+271,T.I.M.E Stories,7.215,7.4,59.99,47.99,2015,146508
+272,Western Legends,7.215,7.61,,,2018,232405
+273,Tapestry,7.214,7.45,,70.97,2019,286096
+274,Blood on the Clocktower,7.213,8.33,,,2022,240980
+275,Lewis & Clark: The Expedition,7.208,7.45,49.99,39.49,2013,140620
+276,Great Western Trail: Argentina,7.206,8.48,,55.99,2022,364011
+277,Bora Bora,7.202,7.56,,,2013,127060
+278,Kingdomino,7.197,7.32,,21.99,2016,204583
+279,Arcadia Quest,7.194,7.62,,96.99,2014,155068
+280,Battle Line,7.191,7.41,,20.94,2000,760
+281,Rococo,7.189,7.58,,,2013,144344
+282,Forgotten Waters,7.187,7.85,59.95,45.49,2020,302723
+283,Dixit: Odyssey,7.187,7.41,,29.99,2011,92828
+284,Anno 1800: The Board Game,7.186,7.75,69.95,38.42,2020,311193
+285,Seasons,7.183,7.36,,55.94,2012,108745
+286,Cryptid,7.182,7.46,40.0,28.04,2018,246784
+287,Ethnos,7.182,7.46,,,2017,206718
+288,Hive,7.18,7.32,,42.67,2000,2655
+289,Imperial,7.177,7.6,,,2006,24181
+290,The Manhattan Project: Energy Empire,7.175,7.75,,119.9,2016,176734
+291,Marvel United,7.17,7.6,34.99,18.29,2020,298047
+292,Indonesia,7.169,7.88,,,2005,19777
+293,Navegador,7.166,7.54,,129.99,2010,66589
+294,Star Realms: Frontiers,7.166,7.95,,39.95,2018,230253
+295,Power Grid Deluxe: Europe/North America,7.166,7.95,179.99,149.99,2014,155873
+296,Monikers,7.165,7.78,29.99,24.99,2015,156546
+297,Dice Throne: Season Two – Battle Chest,7.164,8.08,,208.3,2018,244271
+298,Cthulhu Wars,7.164,7.86,,170.43,2015,139976
+299,Dungeon Petz,7.164,7.41,,40.28,2011,97207
+300,Age of Empires III: The Age of Discovery,7.159,7.51,,219.95,2007,22545
+301,Return to Dark Tower,7.158,8.3,,289.99,2022,256680
+302,Telestrations,7.157,7.38,,31.29,2009,46213
+303,Space Alert,7.156,7.4,,66.12,2008,38453
+304,Onitama,7.156,7.36,,29.99,2014,160477
+305,Nemo's War (Second Edition),7.153,7.86,75.0,40.0,2017,187617
+306,Oath: Chronicles of Empire & Exile,7.153,7.82,120.0,88.19,2021,291572
+307,Bitoku,7.15,7.86,,57.53,2021,323612
+308,Imperial Settlers,7.15,7.33,,33.95,2014,154203
+309,Fury of Dracula (Third/Fourth Edition),7.149,7.44,,,2015,181279
+310,Glass Road,7.147,7.45,,116.41,2013,143693
+311,Kemet: Blood and Sand,7.144,8.01,,89.99,2021,297562
+312,Summoner Wars: Master Set,7.142,7.48,,219.95,2011,93260
+313,Imperial 2030,7.141,7.65,,67.75,2009,54138
+314,The King's Dilemma,7.139,7.8,64.99,59.99,2019,245655
+315,Aeon's End: The New Age,7.139,8.55,,48.9,2019,270633
+316,Arkham Horror (Third Edition),7.135,7.7,,55.37,2018,257499
+317,Runewars,7.135,7.61,,,2010,59294
+318,Alien Frontiers,7.134,7.37,94.75,85.98,2010,48726
+319,Century: Spice Road,7.133,7.31,47.1,39.99,2017,209685
+320,Heaven & Ale,7.133,7.55,,114.27,2017,227789
+321,Tikal,7.133,7.33,,59.99,1999,54
+322,Survive: Escape from Atlantis!,7.132,7.31,,39.99,1982,2653
+323,Mind MGMT: The Psychic Espionage “Game.”,7.132,8.0,,74.0,2021,284653
+324,Bruges,7.129,7.42,,,2013,136888
+325,Love Letter,7.128,7.22,,19.78,2012,129622
+326,Tiny Epic Galaxies,7.128,7.34,,31.99,2015,163967
+327,For Sale,7.127,7.25,,26.43,1997,172
+328,Exit: The Game – The Abandoned Cabin,7.126,7.44,,14.99,2016,203420
+329,Lost Cities,7.126,7.23,21.73,20.33,1999,50
+330,Antiquity,7.125,7.86,,,2004,13122
+331,Acquire,7.124,7.34,49.99,44.93,1963,5
+332,Bunny Kingdom,7.123,7.43,52.99,49.99,2017,184921
+333,Destinies,7.122,7.76,46.99,33.99,2021,285192
+334,Burgle Bros.,7.122,7.45,,,2015,172081
+335,The Great Zimbabwe,7.12,7.83,,130.65,2012,111341
+336,Awkward Guests: The Walton Case,7.12,7.59,,41.99,2016,188866
+337,Dead of Winter: The Long Night,7.117,7.54,,64.95,2016,193037
+338,Long Shot: The Dice Game,7.117,7.68,,,2022,295374
+339,Small World,7.115,7.21,,,2009,40692
+340,Above and Below,7.115,7.37,67.48,37.49,2015,172818
+341,Arboretum,7.114,7.31,21.99,19.95,2015,140934
+342,Bonfire,7.111,7.68,64.99,48.06,2020,304420
+343,Nusfjord,7.109,7.64,,,2017,234277
+344,Merchants & Marauders,7.109,7.39,,64.99,2010,25292
+345,BattleLore: Second Edition,7.109,7.68,,,2013,146439
+346,The King Is Dead: Second Edition,7.108,7.67,48.0,37.27,2020,319966
+347,Lords of Hellas,7.108,7.69,,69.95,2018,222509
+348,Neuroshima Hex! 3.0,7.107,7.39,,44.99,2006,21241
+349,Dungeon Lords,7.106,7.36,,91.6,2009,45315
+350,Tiletum,7.105,7.97,,59.99,2022,351913
+351,Chinatown,7.105,7.42,,,1999,47
+352,Tekhenu: Obelisk of the Sun,7.104,7.73,89.99,54.95,2020,297030
+353,Bärenpark,7.104,7.3,,44.34,2017,219513
+354,Mission: Red Planet (Second Edition),7.103,7.41,,26.99,2015,176920
+355,Sid Meier's Civilization: The Board Game,7.103,7.38,,,2010,77130
+356,Letters from Whitechapel,7.101,7.35,,81.49,2011,59959
+357,Dixit,7.098,7.21,,49.97,2008,39856
+358,Skull King,7.098,7.51,,16.99,2013,150145
+359,Star Wars: The Deckbuilding Game,7.097,7.95,,24.31,2023,374173
+360,Imperium: Classics,7.093,7.72,48.0,41.3,2021,318184
+361,Innovation,7.092,7.29,20.0,18.55,2010,63888
+362,Harry Potter: Hogwarts Battle,7.092,7.38,49.9,29.99,2016,199042
+363,Mysterium,7.091,7.23,54.99,34.99,2015,181304
+364,Takenoko,7.09,7.22,,40.99,2011,70919
+365,Hannibal: Rome vs. Carthage,7.089,7.78,108.98,89.2,1996,234
+366,Star Wars: Armada,7.089,7.82,,95.99,2015,163745
+367,Gizmos,7.089,7.39,,39.99,2018,246192
+368,Ghost Stories,7.088,7.28,,99.99,2008,37046
+369,Cloudspire,7.086,8.2,,174.94,2019,262211
+370,Agricola: All Creatures Big and Small,7.084,7.34,,39.99,2012,119890
+371,The Resistance,7.084,7.22,24.99,19.99,2009,41114
+372,51st State: Master Set,7.083,7.61,,157.09,2016,192458
+373,Raiders of Scythia,7.083,7.79,60.0,46.32,2020,301880
+374,Altiplano,7.082,7.48,65.0,55.99,2017,234487
+375,So Clover!,7.082,7.59,,24.97,2021,329839
+376,Ginkgopolis,7.082,7.51,,64.99,2012,128271
+377,Love Letter,7.076,7.51,14.99,12.59,2019,277085
+378,San Juan,7.075,7.23,,29.99,2004,8217
+379,Mage Wars Arena,7.074,7.58,,,2012,101721
+380,Furnace,7.074,7.43,44.99,38.11,2020,318084
+381,Blood Bowl: Team Manager – The Card Game,7.072,7.39,,,2011,90137
+382,Carpe Diem,7.07,7.52,,19.99,2018,245934
+383,Newton,7.07,7.56,,67.99,2018,244711
+384,Flamecraft,7.068,7.48,,39.94,2022,336986
+385,Abyss,7.067,7.32,,46.21,2014,155987
+386,Notre Dame,7.066,7.32,,54.99,2007,25554
+387,Gùgōng,7.063,7.45,,78.0,2018,250458
+388,The Pillars of the Earth,7.063,7.27,,19.99,2006,24480
+389,At the Gates of Loyang,7.062,7.36,,,2009,39683
+390,Twice as Clever!,7.058,7.45,24.99,22.69,2019,269210
+391,Maria,7.058,7.99,,,2009,40354
+392,Pandemic: Fall of Rome,7.056,7.63,49.99,28.99,2018,260428
+393,The Godfather: Corleone's Empire,7.054,7.53,,96.55,2017,195539
+394,Sidereal Confluence,7.053,7.78,69.99,49.0,2017,202426
+395,Saint Petersburg,7.052,7.27,,,2004,9217
+396,Downforce,7.051,7.32,,39.95,2017,215311
+397,Die Macher,7.05,7.6,,,1986,1
+398,Summoner Wars (Second Edition),7.05,8.17,,49.95,2021,332800
+399,Evolution: Climate,7.048,7.51,64.99,58.5,2016,182134
+400,Schotten Totten,7.048,7.35,,15.99,1999,372
+401,Endeavor,7.045,7.38,,70.9,2009,33160
+402,Project L,7.045,7.48,,34.99,2020,260180
+403,Smartphone Inc.,7.045,7.59,,57.32,2018,246684
+404,King of Tokyo,7.041,7.14,44.99,37.55,2011,70323
+405,Here I Stand,7.04,7.88,,,2006,17392
+406,Ticket to Ride: Märklin,7.04,7.41,,,2006,21348
+407,In the Year of the Dragon,7.036,7.3,,27.66,2007,31594
+408,Bruxelles 1893,7.036,7.62,,,2013,144592
+409,London (Second Edition),7.034,7.52,61.93,58.08,2017,236191
+410,Azul: Stained Glass of Sintra,7.034,7.32,39.99,34.98,2018,256226
+411,Tiny Towns,7.033,7.24,42.99,37.62,2019,265736
+412,Arkham Horror,7.033,7.24,,200.0,2005,15987
+413,San Juan (Second Edition),7.031,7.46,,29.99,2014,166669
+414,Unmatched: Robin Hood vs. Bigfoot,7.027,7.94,,,2019,274638
+415,Dice Forge,7.027,7.23,47.82,44.99,2017,194594
+416,Civilization,7.026,7.5,,,1980,71
+417,Codenames: Pictures,7.023,7.2,,24.99,2016,198773
+418,Skull,7.021,7.2,,,2011,92415
+419,Blitzkrieg!: World War Two in 20 Minutes,7.021,7.62,,,2019,258210
+420,Sherlock Holmes Consulting Detective: Jack the Ripper & West End Adventures,7.02,7.61,57.99,46.39,2016,204305
+421,Nippon,7.02,7.65,,,2015,154809
+422,Sprawlopolis,7.019,7.35,,,2018,251658
+423,Turing Machine,7.019,7.79,,39.95,2022,356123
+424,Firefly: The Game,7.018,7.39,85.31,79.99,2013,138161
+425,Cat in the Box: Deluxe Edition,7.017,7.64,29.95,19.99,2022,345972
+426,Sword & Sorcery,7.016,7.91,79.99,63.99,2017,170771
+427,Space Hulk (Third Edition),7.016,7.53,,834.04,2009,54625
+428,Santa Maria,7.015,7.48,,58.99,2017,229220
+429,Clash of Cultures,7.015,7.58,,,2012,40765
+430,Spartacus: A Game of Blood and Treachery,7.012,7.46,,130.0,2012,128671
+431,Cubitos,7.011,7.44,59.99,46.54,2021,298069
+432,Stockpile,7.011,7.47,,,2015,161614
+433,Macao,7.009,7.41,,179.95,2009,55670
+434,King of Tokyo: Dark Edition,7.009,7.7,,79.9,2020,293141
+435,Biblios,7.008,7.2,,77.59,2007,34219
+436,ISS Vanguard,7.008,8.71,159.0,146.47,2022,325494
+437,Fresco,7.008,7.26,89.99,80.95,2010,66188
+438,Mythic Battles: Pantheon,7.007,8.34,,,2017,186751
+439,Claustrophobia,7.006,7.48,,249.99,2009,36932
+440,Dune,7.006,7.59,,,1979,121
+441,Advanced Squad Leader,7.006,8.01,,,1985,243
+442,Chess,7.004,7.19,19.95,16.4,1475,171
+443,Thunderstone Quest,7.004,7.78,,,2018,215341
+444,Wavelength,7.003,7.29,39.99,31.49,2019,262543
+445,Mice and Mystics,7.002,7.24,79.99,63.99,2012,124708
+446,The Manhattan Project,7.002,7.33,,99.99,2012,63628
+447,Flash Point: Fire Rescue,7.0,7.16,,39.99,2011,100901
+448,Mindbug: First Contact,6.999,7.77,,,2022,345584
+449,Marvel United: X-Men,6.999,8.12,34.99,32.16,2021,336382
+450,Kingsburg,6.995,7.18,,,2007,27162
+451,Millennium Blades,6.994,7.67,,79.99,2016,151347
+452,Imperial Settlers: Empires of the North,6.991,7.46,,35.95,2019,270844
+453,Boonlake,6.99,7.69,,69.95,2021,343905
+454,John Company: Second Edition,6.988,8.33,,,2022,332686
+455,Glen More,6.986,7.3,,,2010,66362
+456,Pipeline,6.986,7.63,,,2019,256730
+457,Lancaster,6.984,7.4,,,2011,96913
+458,Lord of the Rings: The Confrontation,6.984,7.48,,,2005,18833
+459,Pandemic: Reign of Cthulhu,6.984,7.37,49.99,39.99,2016,192153
+460,Heroscape Master Set: Rise of the Valkyrie,6.984,7.44,,399.99,2004,11170
+461,Black Orchestra,6.982,7.51,60.0,50.0,2016,156858
+462,A Few Acres of Snow,6.981,7.37,,,2011,79828
+463,Mandala,6.981,7.54,,29.99,2019,264241
+464,Honey Buzz,6.979,7.62,,,2020,284742
+465,PitchCar,6.978,7.26,,,1995,150
+466,Quadropolis,6.977,7.23,,,2016,176396
+467,Point Salad,6.976,7.17,19.99,16.99,2019,274960
+468,Wayfarers of the South Tigris,6.974,7.86,,50.9,2022,350316
+469,Mystic Vale,6.969,7.26,,99.99,2016,194607
+470,Middara: Unintentional Malum – Act 1,6.969,8.63,,,2019,169427
+471,IKI,6.968,7.68,,54.98,2015,177478
+472,Commands & Colors: Napoleonics,6.967,8.02,,82.96,2010,62222
+473,Amerigo,6.964,7.45,,,2013,137408
+474,Cartographers Heroes,6.964,7.8,24.95,22.52,2021,315767
+475,Stuffed Fables,6.962,7.47,75.99,63.99,2018,233312
+476,Hadara,6.96,7.42,,49.99,2019,269144
+477,Pan Am,6.959,7.55,34.99,27.24,2020,303057
+478,Descent: Legends of the Dark,6.959,7.95,174.95,94.99,2021,322708
+479,Amun-Re,6.958,7.3,,,2003,5404
+480,Colt Express,6.958,7.09,39.99,25.49,2014,158899
+481,BattleLore,6.958,7.35,,,2006,25417
+482,Fire in the Lake,6.957,8.05,,69.48,2014,144189
+483,Pandemic: The Cure,6.957,7.25,,49.99,2014,150658
+484,Dead Reckoning,6.956,8.23,,,2022,276182
+485,Dawn of the Zeds (Third Edition),6.954,8.17,,,2016,175095
+486,Citadels,6.954,7.26,,69.95,2016,205398
+487,Charterstone,6.953,7.23,70.0,51.91,2017,197376
+488,Risk Legacy,6.952,7.37,,94.99,2011,105134
+489,No Thanks!,6.952,7.07,12.99,9.99,2004,12942
+490,"Air, Land, & Sea",6.952,7.46,,,2019,247367
+491,Exit: The Game – Dead Man on the Orient Express,6.951,7.57,14.95,14.1,2017,226522
+492,Citadels,6.951,7.07,29.99,27.74,2000,478
+493,Sheriff of Nottingham,6.949,7.08,,120.42,2014,157969
+494,Deus,6.948,7.28,33.7,29.9,2014,162082
+495,Zombie Kidz Evolution,6.948,7.65,,24.99,2018,256952
+496,Lords of Vegas,6.947,7.35,,99.99,2010,20437
+497,Foundations of Rome,6.947,8.03,,,2022,284189
+498,Forbidden Desert,6.947,7.09,32.78,26.95,2013,136063
+499,Fantastic Factories,6.946,7.46,,,2019,216600
+500,Blood Bowl (Third Edition),6.946,7.55,,,1994,712
