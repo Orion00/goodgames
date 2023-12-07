@@ -6,6 +6,7 @@
 # and https://api.geekdo.com/xmlapi2
 # Terms of Use are here https://boardgamegeek.com/wiki/page/XML_API_Terms_of_Use
 
+# %%
 ### Delays
 # Request is done for each row in the dataset, so 500 calls total
 DELAY_FOR_IDS = 1
@@ -29,6 +30,8 @@ a_url = "https://boardgamegeek.com/xmlapi/"
 
 def checkIf(obj,data_type):
     return type(obj) == data_type
+
+# %%
 
 game_id = []
 for index,row in games.iterrows():
@@ -142,7 +145,7 @@ for batch_num in range(num_batches):
 
 games['min_players'] = min_players
 games['max_players'] = max_players
-games['playing_time_min'] = playing_time
+games['playing_time'] = playing_time
 games['mechanics'] = mechanics
 # %%
 mechanics_encoded = pd.get_dummies(games['mechanics'].apply(pd.Series).stack()).sum(level=0)
