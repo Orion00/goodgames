@@ -150,6 +150,7 @@ games['mechanics'] = mechanics
 # %%
 mechanics_encoded = pd.get_dummies(games['mechanics'].apply(pd.Series).stack()).sum(level=0)
 games = pd.concat([games, mechanics_encoded], axis=1)
+games['playing_time'] = games['playing_time'].replace([0],np.NaN)
 games
 # %%
 games.to_csv("data/full_data.csv",index=False)
