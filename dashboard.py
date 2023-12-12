@@ -36,28 +36,20 @@ if len(games_mechanics) != 0:
                      "x": "Mechanic Frequency",
                      "y": "Mechanic",
                  })
-# st.pyplot(fig)
     t = str(num_mechanics)+" Most Frequent Mechanics"
     fig.update_layout(title=t,showlegend=False)
     st.write(fig)
 
-
-# name_df = df[df["name"] == selected_name]
-
-# if name_df.empty:
-#     st.write("Name not found")
-# else:
-#     fig = px.line(name_df,x='year',y='n',color='sex',
-#                   color_discrete_sequence=px.colors.qualitative.Set2)
-#     st.plotly_chart(fig)
-
-# selected_year = st.selectbox("Select a year",df['year'].unique())
-
-# year_df = df[df["year"] == selected_year]
-
-# girl_names = year_df[year_df["sex"]=="F"].sort_values(by='n',ascending=False).head()['name'].reset_index(drop=True)
-# boy_names = year_df[year_df["sex"]=="M"].sort_values(by='n',ascending=False).head()['name'].reset_index(drop=True)
-# top_names = pd.concat([girl_names,boy_names],axis=1)
-# top_names.columns = ['girl','boy']
-# st.write(f"Top names in {selected_year}")
-# st.write(top_names)
+if len(games_filtered) != 0:
+    st.write("Scatterplots")
+    x_axis = st.selectbox("Select an X axis",['rank','year','min_players','max_players'])
+    y_axis = st.selectbox("Select a Y axis",['BGG_rating','avg_rating','list_price','amazon_price'])
+    color = st.selectbox("Select a color",['','rank','year','BGG_rating','avg_rating','list_price','amazon_price','min_players','max_players'])
+    t = x_axis + " vs "
+    if color:
+        t += ' by '+color
+        fig = px.scatter(data_frame=games_filtered,x=x_axis,y=y_axis,color=color)
+    else:
+        fig = px.scatter(data_frame=games_filtered,x=x_axis,y=y_axis)
+    fig.update_layout(title=t)
+    st.write(fig)
