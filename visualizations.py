@@ -15,6 +15,9 @@ games_sans_encoding.describe()
 sns.heatmap(games_sans_encoding.drop('game_id',axis=1).corr(numeric_only=True))
 plt.savefig("visuals/correlationMatrix.png",bbox_inches='tight',pad_inches=.1)
 
+# %%
+games_sans_encoding.drop('game_id',axis=1).corr(numeric_only=True)
+
 
 ### Mechanics 
 # %%
