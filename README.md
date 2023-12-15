@@ -1,7 +1,7 @@
 # goodgames
 EDA analysis for what features improve the score of a board game.
 
-Blog posts to come at https://orion00.github.io/tinyproject/
+Blog posts at https://orion00.github.io/tinyproject/
 
 Feedback directory documents peer feedback throughout the project.
 
